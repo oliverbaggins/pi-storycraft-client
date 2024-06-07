@@ -1,0 +1,234 @@
+/* Ajustes na estrutura principal da página */
+.sidebar-container {
+    display: flex;
+  }
+  
+  /* Estilos gerais */
+  .sidebar-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background-color: #FFFAFF;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000; /* Garantir que a sidebar esteja acima de outros conteúdos */
+  }
+  
+  .sidebar-inside.closed {
+    transform: translateX(-100%); /* Sidebar fechada */
+  }
+  
+  .sidebar-toggle {
+    position: fixed;
+    top: 6px;
+    left: 6px;
+    z-index: 1000;
+    background-color: #3852FF;
+    color: #FFFAFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: none; /* Esconder o botão por padrão */
+  }
+
+  .logo1 {
+    width: 100px;
+  }
+  
+  .sidebar-toggle:hover {
+    opacity: 0.8;
+  }
+  
+  .sidebar-close {
+    display: none; /* Esconder o botão de fechar por padrão */
+    background-color: #FFFAFF;
+    color: #3852FF;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #3852FF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 16px;
+    align-self: center;
+    margin: 20px 0; /* Espaçamento abaixo do logo */
+  }
+  
+  .sidebar-close:hover {
+    opacity: 0.8;
+  }
+  
+  .Logo {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0;
+  }
+  
+  .logoIgm {
+    width: 250px;
+  }
+  
+  .textProjects {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #333;
+  }
+  
+  .logoTitle {
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3852FF;
+    line-height: 1;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 550px;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .projects li {
+    padding-left: 10px 10px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .projects li:hover {
+    color: #3852FF;
+    transform: scale(1.02);
+  }
+  
+  .projects li:active {
+    transform: scale(0.98);
+  }
+  
+  .project-item.active {
+    color: #3852FF;
+  }
+  
+  .Texto {
+    margin-bottom: 50px;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .Titulo-Texto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0px;
+  }
+  
+  .texto-Texto {
+    margin-top: 8px;
+    font-size: 20px;
+    max-width: 250px;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  .Botoes {
+    gap: 10px;
+  }
+  
+  .botão-1 {
+    background-color: #3852FF;
+    color: #FFFAFF;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .botão-1:hover {
+    opacity: 0.8;
+  }
+  
+  .botão-2 {
+    background-color: #FFFAFF;
+    color: #3852FF;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #3852FF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .botão-2:hover {
+    opacity: 0.8;
+  }
+  
+  .Botoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos específicos para dispositivos móveis */
+  @media (max-width: 768px) {
+    .sidebar-toggle {
+      display: block; /* Mostrar o botão em dispositivos móveis */
+    }
+  
+    .sidebar-inside {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      transform: translateX(-100%);
+    }
+  
+    .sidebar-inside.open {
+      transform: translateX(0);
+    }
+  
+    .sidebar-close {
+      display: block; /* Mostrar o botão de fechar dentro da sidebar em dispositivos móveis */
+    }
+  }
+  
+  /* Ajustar o conteúdo principal */
+  .content-container {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 280px; /* Espaço para a sidebar */
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .content-container {
+      margin-left: 0;
+    }
+  }
+  

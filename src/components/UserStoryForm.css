@@ -1,0 +1,189 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.right-pane {
+    flex: 2;
+    background-color: #F1F1F1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.newTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.pergunta {
+    margin-bottom: 15px;
+}
+
+.perguntaShort {
+    font-size: 22px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.pergunta label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #333;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.pergunta h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.pergunta p {
+    font-size: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.perguntaShort2 {
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.pergunta input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.pergunta input:focus {
+    border-color: #3852FF;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+}
+
+.pergunta input::placeholder {
+    color: #999;
+}
+
+.pergunta textarea {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    resize: none;
+    min-height: 150px; 
+}
+
+.pergunta textarea:focus {
+    border-color: #3852FF;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+}
+
+.pergunta textarea::placeholder {
+    color: #999;
+}
+
+.pergunta select {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    appearance: none; 
+    background: url('data:image/svg+xml;utf8,<svg fill="%23999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center; 
+    background-color: #FFFAFF; 
+    background-size: 12px;
+    background-position: right 10px center;
+    color: #333; 
+}
+
+.pergunta select:focus {
+    border-color: #3852FF;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+}
+
+.botao-3 {
+    background-color: #3852FF;
+    color: #FFFAFF;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.botao-3:hover{
+    opacity: 0.8;
+}
+
+.botao-4 {
+    background-color: #FFFAFF;
+    color: #3852FF;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #3852FF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Kumbh Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+.botao-4:hover{
+    opacity: 0.8;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+  }
+  
+  .loading-container p {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #333;
+  }

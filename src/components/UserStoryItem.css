@@ -1,0 +1,171 @@
+.historias-usuario {
+    margin: 20px;
+}
+
+.historia {
+    display: flex;
+    max-width: 88%;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 32px 20px;
+    background-color: #C0DFFF;
+    border-radius: 24px;
+    min-height: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between; /* Espaça os itens */
+}
+
+.numero {
+    margin: 0 30px;
+    font-size: 120px;
+    color: #2b589e;
+    font-family: "Kumbh Sans", sans-serif;
+    flex-shrink: 0;
+}
+
+.textao {
+    font-size: 24px;
+    color: #232323;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    flex: 1;
+    padding-right: 25px;
+    font-family: "Kumbh Sans", sans-serif;
+    text-align: justify;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2b589e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.button:hover {
+    opacity: 0.8;;
+}
+
+.button2 {
+    padding: 8px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e63946;
+    color: #FFFAFF;
+    cursor: pointer;
+    border: 1px solid #e63946;
+    transition: background-color 0.3s;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.button2:hover{
+    opacity: 0.8;;
+}
+
+.editing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaço entre o textarea e os botões */
+    height: 400px; /* Altura mínima para centralização */
+}
+
+textarea {
+    width: 80%; 
+    height: 100%;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: "Kumbh Sans", sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #3852FF;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.button-container .button {
+    flex: 1; /* Faz com que ambos os botões ocupem o mesmo espaço */
+    text-align: center; /* Centraliza o texto dentro dos botões */
+}
+
+.button3 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3852FF;
+    color: #FFFAFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.button3:hover {
+    opacity: 0.8;
+}
+
+.button4 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFAFF;
+    color: #3852FF;
+    cursor: pointer;
+    border: 1px solid #3852FF;
+    transition: background-color 0.3s;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.button4:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+    .historia {
+        flex-direction: column; /* Altera a direção para empilhar os elementos verticalmente */
+        align-items: center; /* Centraliza os elementos horizontalmente */
+        margin-left: 0; /* Remove a margem esquerda */
+        margin-right: 0; /* Remove a margem direita */
+        padding: 15px; /* Reduz o padding */
+    }
+
+    .numero {
+        font-size: 80px; /* Reduz o tamanho da fonte do número */
+        margin: 0 0 10px 0; /* Ajusta a margem do número */
+    }
+
+    .textao {
+        font-size: 18px; /* Reduz o tamanho da fonte do texto */
+        padding-right: 0; /* Remove o padding direito do texto */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .buttons {
+        align-items: center; /* Centraliza os botões horizontalmente */
+    }
+}

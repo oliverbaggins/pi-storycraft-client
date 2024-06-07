@@ -1,0 +1,54 @@
+.textNoStory {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Use align-items para centralizar verticalmente */
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #333;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 100px; 
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+.btnList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.botao-L1 {
+    background-color: #3852FF;
+    color: #FFFAFF;
+    font-weight: bold;
+    width: 48%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-L2 {
+    background-color: #FFFAFF;
+    color: #007bff;
+    font-weight: bold;
+    width: 48%;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-L1:hover{
+    opacity: 0.8;
+}
+
+.botao-L2:hover{
+    opacity: 0.8;
+}

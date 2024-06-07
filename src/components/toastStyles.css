@@ -1,0 +1,22 @@
+/* toastStyles.css */
+.custom-toast-container .Toastify__toast--success {
+    background-color: #FFFAFF; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+  }
+  
+  .custom-toast-container .Toastify__toast--error {
+    background-color: #FFFAFF; /* Cor de fundo para erro */
+    color: #333; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .custom-toast-container .Toastify__toast-body {
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .custom-toast-container .Toastify__progress-bar--success {
+    background-color: #3852FF; /* Cor da barra de progresso */
+  }
+  
