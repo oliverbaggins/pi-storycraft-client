@@ -58,6 +58,44 @@ Acesse no navegador: [http://localhost:3000](http://localhost:3000)
 | `npm start`    | Inicia o frontend em modo desenvolvimento |
 | `npm run build`| Gera a versão para produção               |
 
+## Screenshots do Projeto
+
+> Uma visão rápida das principais telas do **StoryCraft**.
+
+**Tela inicial (sem projetos)**
+
+![Tela inicial (sem projetos)](docs/screenshots/01-home-empty.png)
+
+**Novo Projeto – formulário**
+
+![Novo Projeto – formulário](docs/screenshots/02-new-project.png)
+
+**Projeto criado – visão geral**
+
+![Projeto criado – visão geral](docs/screenshots/03-project-created.png)
+
+**História de Usuário – formulário**
+
+O uso das perguntas propostas — como Tipo de Usuário, Objetivos, Desafios, Ação, Motivação, Critérios de Aceitação, Requisitos Técnicos, Prioridade e Notas Adicionais — é justificado por sua aderência a padrões reconhecidos na engenharia de software ágil. Esses elementos se baseiam em frameworks consagrados como o template Connextra (“Como [tipo de usuário], eu quero [ação], para que [objetivo]”), o princípio INVEST (Bill Wake, 2003) e o conceito dos 3-C’s de Ron Jeffries (Cartão, Conversa e Confirmação). Ao responder essas questões, garante-se que cada história seja clara, valiosa, testável e priorizável, facilitando o alinhamento entre equipe e stakeholders. Além disso, a inclusão de desafios e restrições técnicas promove maior empatia com o usuário e antecipa riscos técnicos, aumentando a eficácia e a qualidade da entrega.
+
+![História de Usuário – objetivos e desafios](docs/screenshots/04-user-story-form-1.png)
+
+![História de Usuário – requisitos e prioridade](docs/screenshots/05-user-story-form-2.png)
+
+**História gerada**
+
+![História gerada](docs/screenshots/06-generated-story.png)
+
+**Edição da história**
+
+![Edição da história](docs/screenshots/07-edit-story-1.png)
+
+![Edição da história](docs/screenshots/08-edit-story-2.png)
+
+**História atualizada**
+
+![História atualizada](docs/screenshots/09-story-updated.png)
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
