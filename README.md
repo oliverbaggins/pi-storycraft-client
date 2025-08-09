@@ -1,8 +1,8 @@
-# StoryCraft – Interface para Geração de Histórias de Usuário com ChatGPT
+# StoryCraft – Interface para Geração de Histórias de Usuário com GPT
 
-**StoryCraft Client** é a interface web do projeto StoryCraft, desenvolvida em React, que permite ao usuário interagir com o sistema de geração de histórias de usuário baseadas em IA (ChatGPT). Com ela, é possível criar projetos, responder a perguntas orientadas e visualizar as histórias geradas com base nas respostas.
+**StoryCraft Client** é a interface web do projeto StoryCraft, desenvolvida em React, que permite ao usuário interagir com o sistema de geração de histórias de usuário baseadas em IA generativa. Com ela, é possível criar projetos, responder a perguntas orientadas e visualizar as histórias geradas com base nas respostas.
 
-**Infelizmente, o projeto não está funcionando no momento, devido a problemas com a API do ChatGPT** (Os créditos acabaram).
+**Se o projeto não estiver gerando as histórias, é devido à falta de créditos.**
 
 ## Acesso Online
 
