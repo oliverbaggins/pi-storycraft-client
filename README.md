@@ -6,7 +6,7 @@
 
 ## Acesso Online
 
-Acesse a aplicação em: [StoryCraft](https://pi-storycraft.onrender.com/)
+Acesse a aplicação em: [pi-storycraft.onrender.com](https://pi-storycraft.onrender.com/)
 
 ## Funcionalidades
 
