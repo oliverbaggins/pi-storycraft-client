@@ -55,7 +55,7 @@ Acesse no navegador: [http://localhost:3000](http://localhost:3000)
 
 | Comando         | Descrição                               |
 |----------------|-------------------------------------------|
-| `npm start`    | Inicia o frontend em modo desenvolvimento |
+| `npm start`    | Inicia o front-end em modo desenvolvimento |
 | `npm run build`| Gera a versão para produção               |
 
 ## Screenshots do Projeto
